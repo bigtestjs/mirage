@@ -1,4 +1,4 @@
-import { Schema, Model, Db, hasMany } from 'mirage-server';
+import { Schema, Model, Db, hasMany } from '@bigtest/mirage';
 
 /*
   A model with a hasMany association can be in eight states
@@ -12,7 +12,6 @@ import { Schema, Model, Db, hasMany } from 'mirage-server';
   where the children array may be empty.
 */
 export default class Helper {
-
   constructor() {
     this.db = new Db();
     this.loadData = this.db.loadData.bind(this.db);
@@ -126,7 +125,6 @@ export default class Helper {
   newChild() {
     return this.schema.posts.new({ title: 'Lorem' });
   }
-
 }
 
 export const states = [

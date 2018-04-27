@@ -1,6 +1,5 @@
 import { module, test } from 'qunit';
-import { Model, Factory, belongsTo, hasMany, trait, association } from 'mirage-server';
-import Server from 'mirage-server';
+import { Model, Factory, belongsTo, hasMany, trait, association, Server } from '@bigtest/mirage';
 
 module('Integration | Server | Factories | helpers', {
   afterEach() {

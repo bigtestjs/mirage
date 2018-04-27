@@ -1,5 +1,5 @@
 import { module, test } from 'qunit';
-import Server, { Response, Model, Collection, Serializer, FunctionRouteHandler } from 'mirage-server';
+import Server, { Response, Model, Collection, Serializer, FunctionRouteHandler } from '@bigtest/mirage';
 import _uniqBy from 'lodash/uniqBy';
 import $ from 'jquery';
 
@@ -33,7 +33,7 @@ test('a meaningful error is thrown if a custom route handler throws an error', f
   let done = assert.async();
 
   this.server.get('/users', function() {
-    throw 'I goofed';
+    throw new Error('I goofed');
   });
 
   $.ajax({

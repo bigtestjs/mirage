@@ -1,5 +1,6 @@
 import {module, test} from 'qunit';
-import Server from 'mirage-server';
+import Server from '@bigtest/mirage';
+import $ from 'jquery';
 
 module('Integration | Passthrough', {
   beforeEach() {

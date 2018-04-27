@@ -1,5 +1,4 @@
-import { Serializer, SerializerRegistry, Schema, Db } from 'mirage-server';
-import { Model, hasMany, belongsTo } from 'mirage-server';
+import { Serializer, SerializerRegistry, Schema, Db, Model, hasMany, belongsTo } from '@bigtest/mirage';
 import { module, test } from 'qunit';
 
 module('Integration | Serializers | Base | Associations | Sideloading Collections', {

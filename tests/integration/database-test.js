@@ -1,6 +1,5 @@
 import {module, test} from 'qunit';
-import Server from 'mirage-server';
-import { Model, Factory } from 'mirage-server';
+import { Server, Model, Factory } from '@bigtest/mirage';
 
 module('Integration | Database', {
   beforeEach() {

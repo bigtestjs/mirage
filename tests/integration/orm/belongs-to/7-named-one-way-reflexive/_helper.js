@@ -1,4 +1,4 @@
-import { Schema, Db, Model, belongsTo } from 'mirage-server';
+import { Schema, Db, Model, belongsTo } from '@bigtest/mirage';
 
 /*
   A model with a belongsTo association can be in six states
@@ -12,7 +12,6 @@ import { Schema, Db, Model, belongsTo } from 'mirage-server';
   where the parent may be undefined.
 */
 export default class BelongsToHelper {
-
   constructor() {
     this.db = new Db();
 
@@ -79,7 +78,6 @@ export default class BelongsToHelper {
   newParent() {
     return this.schema.users.new({ name: 'Bob' });
   }
-
 }
 
 export const states = [

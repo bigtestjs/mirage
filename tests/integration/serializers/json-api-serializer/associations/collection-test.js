@@ -1,5 +1,4 @@
-import { Schema, Db, SerializerRegistry } from 'mirage-server';
-import { Model, hasMany, belongsTo, JSONAPISerializer } from 'mirage-server';
+import { Schema, Db, SerializerRegistry, Model, hasMany, belongsTo, JSONAPISerializer } from '@bigtest/mirage';
 import { module, test } from 'qunit';
 
 module('Integration | Serializers | JSON API Serializer | Associations | Collection', {
@@ -449,5 +448,4 @@ test(`it propertly serializes complex relationships`, function(assert) {
       }
     ]
   });
-
 });

@@ -1,4 +1,4 @@
-import { referenceSort } from 'mirage-server';
+import { referenceSort } from '@bigtest/mirage';
 import {module, test} from 'qunit';
 
 module('mirage:reference-sort');
@@ -23,7 +23,6 @@ test('it throws on circular dependency', function(assert) {
   }, function(e) {
     return e.toString() === 'Error: Cyclic dependency in properties ["propB","propA"]';
   });
-
 });
 
 test('it works with no references', function(assert) {
