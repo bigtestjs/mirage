@@ -8,7 +8,7 @@
     "build": "rollup --config",
     "start": "karma start",
     "test": "karma start --single-run",
-    "docs": "../../bin/docs ./lib",
+    "postpublish": "bigtest-tag-version",
     "lint": "eslint ./"
   },
   "eslintIgnore": [
@@ -38,6 +38,7 @@
   },
   "homepage": "https://github.com/thefrontside/bigtest/blob/master/packages/mirage/README.md",
   "devDependencies": {
+    "@bigtest/meta": "bigtestjs/meta",
     "babel-cli": "^6.24.1",
     "babel-loader": "^7.1.1",
     "babel-preset-es2016": "^6.24.1",
