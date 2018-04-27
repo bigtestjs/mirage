@@ -16,7 +16,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thefrontside/bigtest.git"
+    "url": "git+https://github.com/bigtestjs/mirage.git"
   },
   "keywords": [
     "test",
@@ -34,14 +34,14 @@
   "author": "Frontside Engineering <engineering@frontside.io>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/thefrontside/bigtest/issues"
+    "url": "https://github.com/bigtestjs/mirage/issues"
   },
-  "homepage": "https://github.com/thefrontside/bigtest/blob/master/packages/mirage/README.md",
+  "homepage": "https://github.com/bigtestjs/mirage/blob/master/README.md",
   "devDependencies": {
     "@bigtest/meta": "bigtestjs/meta",
-    "babel-cli": "^6.24.1",
-    "babel-loader": "^7.1.1",
-    "babel-preset-es2016": "^6.24.1",
+    "@babel/core": "^7.0.0-beta.0",
+    "babel-loader": "^8.0.0-beta.0",
+    "@babel/preset-env": "^7.0.0-beta.0",
     "eslint": "^4.16.0",
     "eslint-config-standard": "^11.0.0-beta.0",
     "eslint-plugin-import": "^2.8.0",

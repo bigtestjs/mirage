@@ -1,6 +1,6 @@
 references:
   defaults: &defaults
-    working_directory: ~/interactor
+    working_directory: ~/mirage
     docker:
       - image: circleci/node:8-browsers
 

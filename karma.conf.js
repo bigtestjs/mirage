@@ -40,7 +40,7 @@ module.exports = function(config) {
             use: [{
               loader: 'babel-loader',
               options: {
-                presets: ['es2016']
+                presets: ['@babel/env']
               }
             }]
           }
