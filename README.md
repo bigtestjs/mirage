@@ -1,4 +1,4 @@
-## Mirage Server
+## Mirage Server [![CircleCI](https://circleci.com/gh/bigtestjs/mirage.svg?style=svg)](https://circleci.com/gh/bigtestjs/mirage)
 
 A client-side server to develop, test and prototype your app.
 
