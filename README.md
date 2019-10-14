@@ -1,6 +1,9 @@
-## Mirage Server [![CircleCI](https://circleci.com/gh/bigtestjs/mirage.svg?style=svg)](https://circleci.com/gh/bigtestjs/mirage)
+## Mirage Server 
 
 A client-side server to develop, test and prototype your app.
+
+> Note: This repository has been archived in favor of https://github.com/miragejs/server
+> Documentation and tutorials at https://miragejs.com/docs
 
 This project is a plain vanilla javascript extraction of the
 [ember-cli-mirage][1] project. It can be used inside of any framework,
